@@ -1,0 +1,16 @@
+D:\Music\tictacktoe-C#\tictacktoe\bin\Debug\tictacktoe.exe
+D:\Music\tictacktoe-C#\tictacktoe\bin\Debug\tictacktoe.pdb
+D:\Music\tictacktoe-C#\tictacktoe\obj\x86\Debug\tictacktoe.csprojResolveAssemblyReference.cache
+D:\Music\tictacktoe-C#\tictacktoe\obj\x86\Debug\tictacktoe.MainForm.resources
+D:\Music\tictacktoe-C#\tictacktoe\obj\x86\Debug\tictacktoe.csproj.GenerateResource.Cache
+D:\Music\tictacktoe-C#\tictacktoe\obj\x86\Debug\tictacktoe.exe
+D:\Music\tictacktoe-C#\tictacktoe\obj\x86\Debug\tictacktoe.pdb
+C:\Users\130372T\Documents\GitHub\TikTakToe\tictacktoe\obj\x86\Debug\tictacktoe.exe
+C:\Users\130372T\Documents\GitHub\TikTakToe\tictacktoe\obj\x86\Debug\tictacktoe.pdb
+C:\Users\130372T\Documents\GitHub\TikTakToe\TikTakToe\tictacktoe\obj\x86\Debug\tictacktoe.exe
+C:\Users\130372T\Documents\GitHub\TikTakToe\TikTakToe\tictacktoe\obj\x86\Debug\tictacktoe.pdb
+C:\Users\130372T\Documents\GitHub\TikTakToe\TikTakToe\tictacktoe\bin\Debug\tictacktoe.exe
+C:\Users\130372T\Documents\GitHub\TikTakToe\TikTakToe\tictacktoe\bin\Debug\tictacktoe.pdb
+C:\Users\130372T\Documents\GitHub\TikTakToe\TikTakToe\tictacktoe\obj\x86\Debug\tictacktoe.csprojResolveAssemblyReference.cache
+C:\Users\130372T\Documents\GitHub\TikTakToe\TikTakToe\tictacktoe\obj\x86\Debug\tictacktoe.MainForm.resources
+C:\Users\130372T\Documents\GitHub\TikTakToe\TikTakToe\tictacktoe\obj\x86\Debug\tictacktoe.csproj.GenerateResource.Cache
