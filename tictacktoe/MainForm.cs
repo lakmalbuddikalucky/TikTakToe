@@ -2,21 +2,64 @@
 using System.Collections.Generic;
 using System.Drawing;
 using System.Windows.Forms;
+using tictacktoe.DB;
 
 namespace tictacktoe
 {
 	public partial class MainForm : Form
 	{
-		public MainForm()
+		public MainForm(Player p1)
 		{
 			InitializeComponent();
-			reset();
+            reset();
+
+            //Set player1
+            this.p1 = p1;
+            player1 = p1.Name;
+
+            //Set player2 to computer
+            player2 = "Computer";
+
+            //Set score labels
+            lblP1.Text = player1;
+            lblP1Score.Text = "0";
+            lblP2.Text = player2;
+            lblP2Score.Text = "0";
+
+            reset();
+            vs = 1;
 		}
+
+        public MainForm(Player p1, Player p2)
+        {
+            InitializeComponent();
+            reset();
+
+            //Set player1
+            this.p1 = p1;
+            player1 = p1.Name;
+
+            //Set player2
+            this.p2 = p2;
+            player2 = p2.Name;
+
+            //Set score labels
+            lblP1.Text = player1;
+            lblP1Score.Text = "0";
+            lblP2.Text = player2;
+            lblP2Score.Text = "0";
+            Show();
+
+            reset();
+            vs = 2;
+            turn = false;
+        }
 		
 		int[,] pos=new int[3,3];
 	    int control,value,a,b,c=1,d=1,difficulty=3,vs=1;
 	    char let;
-	    String player1="You",player2="Computer";
+	    String player1,player2;
+        Player p1, p2;
 	    Random random=new Random();
 	    bool turn=true;
 	    
@@ -38,7 +81,10 @@ namespace tictacktoe
 	        control=0;
 	        value=1;
 	        let='X';
-	        label10.Text = player1+" to Play NOW.";
+            if(vs==1){
+                label10.Text = player1+" to Play NOW.";
+            }
+	        
 	    }
 	     
 	    bool play(int l,int m)
@@ -320,24 +366,13 @@ namespace tictacktoe
 		//selecting to play against the computer
 		void VsComputerToolStripMenuItemClick(object sender, EventArgs e)
 		{
-			player1="You";
-	        player2="Computer";
-	        reset();
-	        vsComputerToolStripMenuItem.Checked=true;
-	        vsPlayerToolStripMenuItem.Checked=false;
-	        vs=1;
+			
 		}
 		
         //selecting to play agianst another player on the same laptop :D 
 		void VsPlayerToolStripMenuItemClick(object sender, EventArgs e)
 		{
-			player1="Player 1";
-	        player2="Player 2";
-	        reset();
-	        vsComputerToolStripMenuItem.Checked=false;
-	        vsPlayerToolStripMenuItem.Checked=true;
-	        vs=2;
-	        turn=false;
+			
 		}
 
 
@@ -346,15 +381,22 @@ namespace tictacktoe
         {
             if (vs == 1)
             {
-                player1 = "You";
+                player1 = p1.Name;
                 player2 = "Computer";
             }
             else
             {
-                player1 = "Player 1";
-                player2 = "Player 2";
+                player1 = p1.Name;
+                player2 = p2.Name;
             }
             reset();
+        }
+
+        private void btnMainMenu_Click(object sender, EventArgs e)
+        {
+            MainMenu form1 = new MainMenu();
+            form1.Show();
+            this.Hide();
         }
 	}
 }

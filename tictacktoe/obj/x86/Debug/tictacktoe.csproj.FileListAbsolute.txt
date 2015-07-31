@@ -14,3 +14,14 @@ C:\Users\130372T\Documents\GitHub\TikTakToe\TikTakToe\tictacktoe\bin\Debug\ticta
 C:\Users\130372T\Documents\GitHub\TikTakToe\TikTakToe\tictacktoe\obj\x86\Debug\tictacktoe.csprojResolveAssemblyReference.cache
 C:\Users\130372T\Documents\GitHub\TikTakToe\TikTakToe\tictacktoe\obj\x86\Debug\tictacktoe.MainForm.resources
 C:\Users\130372T\Documents\GitHub\TikTakToe\TikTakToe\tictacktoe\obj\x86\Debug\tictacktoe.csproj.GenerateResource.Cache
+C:\Users\User\Documents\GitHub\TikTakToe\tictacktoe\obj\x86\Debug\tictacktoe.exe
+C:\Users\User\Documents\GitHub\TikTakToe\tictacktoe\obj\x86\Debug\tictacktoe.pdb
+C:\Users\User\Documents\GitHub\TikTakToe\tictacktoe\bin\Debug\tictacktoe.exe
+C:\Users\User\Documents\GitHub\TikTakToe\tictacktoe\bin\Debug\tictacktoe.pdb
+C:\Users\User\Documents\GitHub\TikTakToe\tictacktoe\obj\x86\Debug\tictacktoe.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\GitHub\TikTakToe\tictacktoe\obj\x86\Debug\tictacktoe.MainForm.resources
+C:\Users\User\Documents\GitHub\TikTakToe\tictacktoe\obj\x86\Debug\tictacktoe.csproj.GenerateResource.Cache
+C:\Users\User\Documents\GitHub\TikTakToe\tictacktoe\obj\x86\Debug\tictacktoe.MainMenu.resources
+C:\Users\User\Documents\GitHub\TikTakToe\tictacktoe\obj\x86\Debug\tictacktoe.OnePlayer.resources
+C:\Users\User\Documents\GitHub\TikTakToe\tictacktoe\obj\x86\Debug\tictacktoe.TwoPlayers.resources
+C:\Users\User\Documents\GitHub\TikTakToe\tictacktoe\bin\Debug\MySql.Data.dll
